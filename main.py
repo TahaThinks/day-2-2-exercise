@@ -5,8 +5,11 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
+height_number=float(height)
+weight_number=int(weight)
+bmi=weight_number/(height_number**height_number)
 
-
+print(int(bmi))
 
 
 
